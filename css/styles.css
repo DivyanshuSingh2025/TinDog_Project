@@ -1,0 +1,171 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+h1 {
+  font-family: 'Montserrat-Bold';
+  line-height: 1.5;
+  font-weight: bolder;
+}
+
+h2 {
+  font-family: 'Montserrat-Bold';
+}
+
+.container-fluid {
+  padding: 3% 15%;
+  padding-bottom: 4.5rem;
+}
+
+.navbar {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 2rem;
+}
+
+body {
+  font-family: 'Montserrat-Bold';
+  align-items: center;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  padding: 0 18px;
+  font-size: 1.5rem;
+  font-family: 'Montserrat-Light'
+}
+
+.download-button {
+  margin-right: 3%;
+}
+
+.title-img {
+  width: 250px;
+  transform: rotate(25deg);
+  position: absolute;
+  z-index: 0;
+  left: 55%
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+h3 {
+  font-family: 'Montserrat-Bold';
+  font-weight: bolder;
+  size: 1.5rem;
+}
+
+.img-box {
+  height: 50%;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 6.0%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1.5rem;
+}
+
+.into-box {
+  padding-bottom: 6.0rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+  font-family: 'Montserrat-Bold';
+  position: relative;
+  z-index: 1;
+}
+
+.images {
+  margin: 5%;
+  width: 15%;
+  border-radius: 100%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+.press-images {
+  width: 15%;
+  margin: 20px 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  text-align: center;
+  size: 100px;
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.section-heading {
+  font-weight: bolder;
+}
+
+.price-text {
+  font-weight: bolder;
+}
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 13% 23%;
+}
+
+.text-cta {
+  color: #fff;
+  padding-bottom: 4rem;
+}
+
+@media (max-width:992px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#footer {
+  text-align: center;
+  padding: 5% 13%;
+}
+
+.footer-icons {
+  padding: 1rem;
+}
